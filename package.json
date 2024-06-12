@@ -1,0 +1,45 @@
+{
+  "name": "career",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "format": "prettier --watch src/**/* --write",
+    "lint": "eslint src/**/* --fix",
+    "build": "node --watch-path=src build.js",
+    "start": "node --watch-path=dist dist/server.cjs",
+    "dev": "npx npm-run-all --parallel -l build start"
+  },
+  "author": "Mohamed Tharwat",
+  "license": "MIT",
+  "description": "career site code challenge",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "bcrypt": "^5.1.1",
+    "bootstrap": "^5.3.3",
+    "browser-sync": "^3.0.2",
+    "cookie-parser": "^1.4.6",
+    "esbuild": "^0.21.4",
+    "express": "^4.19.2",
+    "hlputils": "^1.2.3",
+    "jsonwebtoken": "^9.0.2",
+    "ms": "^2.1.3",
+    "npm-run-all": "^4.1.5",
+    "react": "^18.3.1",
+    "react-bootstrap": "^2.10.2",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.23.1",
+    "reactstrap": "^9.2.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "eslint-plugin-react": "^7.34.2",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "prettier": "^3.3.1"
+  }
+}
