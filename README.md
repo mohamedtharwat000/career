@@ -19,9 +19,8 @@ This project is a front-end development task for a careers webpage. The goal is 
 ## Technologies Used
 
 - **Front-End:**
-  - React.js
+  - React.js (server side rendring)
   - Reactstrap (Bootstrap components for React)
-  - React Router DOM
 - **Back-End:**
   - Node.js
   - Express.js
@@ -31,11 +30,6 @@ This project is a front-end development task for a careers webpage. The goal is 
   - ESLint for code linting
   - Prettier for code formatting
   - esbuild for fast bundling and compiling
-  - npm-run-all for running multiple scripts concurrently
-- **Other Dependencies:**
-  - Axios for making HTTP requests
-  - Cookie-Parser for handling cookies
-  - Browser-Sync for live-reloading during development
 
 ## Project Structure
 
@@ -94,10 +88,6 @@ This project is a front-end development task for a careers webpage. The goal is 
   ```bash
   npm run dev
   ```
-
-## Deployment
-
-To deploy the project, ensure that the backend server is running and the front-end build is served correctly. You can use services like Heroku, Vercel, or any other cloud provider for deployment.
 
 ## License
 
