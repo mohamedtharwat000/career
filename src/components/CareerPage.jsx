@@ -132,7 +132,7 @@ function CareerPage() {
                     {job.company}
                   </Badge>
                   <Badge
-                    color="info"
+                    color="primary"
                     className="mr-2 m-1"
                   >
                     {job.location}
@@ -140,38 +140,14 @@ function CareerPage() {
                 </div>
                 <div className="mb-4">
                   <Badge
-                    color="primary"
-                    className="mr-2 mb-2"
-                  >
-                    Role: {job.role}
-                  </Badge>
-                  <Badge
-                    color="secondary"
-                    className="mr-2 mb-2"
-                  >
-                    Level: {job.level}
-                  </Badge>
-                  <Badge
-                    color="secondary"
-                    className="mr-2 mb-2"
-                  >
-                    Contract: {job.contract}
-                  </Badge>
-                  <Badge
-                    color="secondary"
-                    className="mr-2 mb-2"
-                  >
-                    Posted: {job.postedAt}
-                  </Badge>
-                  <Badge
-                    color="secondary"
-                    className="mr-2 mb-2"
+                    color="info"
+                    className="m-1"
                   >
                     Languages: {job.languages.join(', ')}
                   </Badge>
                   <Badge
-                    color="secondary"
-                    className="mr-2 mb-2"
+                    color="info"
+                    className="m-1"
                   >
                     Tools: {job.tools.join(', ')}
                   </Badge>
