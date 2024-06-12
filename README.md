@@ -12,6 +12,10 @@ This project is a front-end development task for a careers webpage. The goal is 
 - **Responsive Design:** Ensures the webpage is fully responsive and mobile-friendly.
 - **User Authentication:** Allows candidates to apply for jobs only after logging in.
 
+## Screenshot
+
+![Screenshot](https://https://github.com/mohamedtharwat000/career/blob/main/storage/screenshot.png)
+
 ## Technologies Used
 
 - **Front-End:**
