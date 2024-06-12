@@ -14,7 +14,7 @@ This project is a front-end development task for a careers webpage. The goal is 
 
 ## Screenshot
 
-![Screenshot](https://https://github.com/mohamedtharwat000/career/blob/main/storage/screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/mohamedtharwat000/career/main/storage/screenshot.png)
 
 ## Technologies Used
 
