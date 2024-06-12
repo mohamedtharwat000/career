@@ -9,8 +9,8 @@
     "level": "Senior",
     "postedAt": "1d ago",
     "contract": "Full Time",
-    "location": "Remote",
-    "languages": ["HTML", "CSS", "JavaScript"],
+    "location": "on site",
+    "languages": ["JavaScript"],
     "tools": ["React"],
     "description": "We are looking for a highly skilled Senior Frontend Developer to join our team. The ideal candidate will have extensive experience with HTML, CSS, and JavaScript, and be proficient in React. You will be responsible for developing and implementing user interface components using React.js concepts and workflows such as Redux, Flux, and Webpack. You will ensure that these components and the overall application are robust and easy to maintain. You will coordinate with the rest of the team working on different layers of the infrastructure."
   },
@@ -26,7 +26,7 @@
     "contract": "Part Time",
     "location": "Remote",
     "languages": ["Python", "JavaScript"],
-    "tools": ["React", "Django"],
+    "tools": ["Django"],
     "description": "Join our dynamic team as a Fullstack Developer where you will design, develop, and maintain both front-end and back-end components of our web applications. You will work with Python and JavaScript, utilizing frameworks such as React for the frontend and Django for the backend. This role requires collaboration with designers and other developers to create high-quality software solutions."
   },
   {
@@ -54,7 +54,7 @@
     "level": "Midweight",
     "postedAt": "1w ago",
     "contract": "Full Time",
-    "location": "Remote",
+    "location": "on site",
     "languages": ["JavaScript"],
     "tools": ["NodeJS"],
     "description": "As a Software Engineer at Marbrains, you will be responsible for developing and maintaining server-side logic, ensuring high performance and responsiveness to requests from the front-end. You should be proficient in JavaScript and experienced with NodeJS. You will work closely with other engineers and developers to create scalable and efficient web applications."
@@ -84,7 +84,7 @@
     "level": "Junior",
     "postedAt": "2w ago",
     "contract": "Full Time",
-    "location": "Remote",
+    "location": "on site",
     "languages": ["HTML", "JavaScript"],
     "tools": ["Sass"],
     "description": "Marbrains is seeking a Junior Developer to join our frontend team. The ideal candidate will be proficient in HTML and JavaScript, and have experience working with Sass. You will be responsible for assisting in the creation and maintenance of web applications, ensuring they are user-friendly and visually appealing."
