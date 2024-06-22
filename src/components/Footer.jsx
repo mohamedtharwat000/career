@@ -7,31 +7,31 @@ function Footer() {
       <Container>
         <Row>
           <Col md="12">
-            <h4>About Mabrains</h4>
+            <h4>About Company</h4>
             <p>
-              Mabrains is an AI company leveraging cutting-edge technologies to
-              deliver solutions across various domains such as Electrical
-              Engineering, Computer Vision, and Financial Analysis, with a
-              strong focus on AI applications in Chip Design and Manufacturing.
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit
+              tempore laudantium ut nostrum pariatur ad, necessitatibus
+              obcaecati cupiditate quidem vero assumenda. Sit praesentium sint
+              modi laborum, mollitia aut dolore temporibus.
             </p>
             <p>
-              Our vision is to develop AI systems and solutions that achieve
-              human-level performance in both specific domains and general
-              intelligence.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+              quibusdam quidem saepe iure temporibus vel ex perspiciatis,
+              consectetur doloremque animi?
             </p>
             <h6>Contact Information</h6>
             <p>
               <strong>Website:</strong>{' '}
               <a
-                href="https://mabrains.com"
+                href="#"
                 className="text-light"
               >
-                mabrains.com
+                companyname.com
               </a>
               <br />
-              <strong>Phone:</strong> +20 0220650226
+              <strong>Phone:</strong> +20 0000000000
               <br />
-              <strong>Headquarters:</strong> Sheraton, Cairo
+              <strong>Headquarters:</strong> Cairo, Egypt
               <br />
             </p>
           </Col>
