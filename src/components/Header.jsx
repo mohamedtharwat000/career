@@ -39,7 +39,7 @@ function Header() {
         dark
         expand="lg"
       >
-        <NavbarBrand href="#">Marbrains</NavbarBrand>
+        <NavbarBrand href="#">Company Name</NavbarBrand>
 
         <NavbarToggler onClick={toggleNavbar} />
 
