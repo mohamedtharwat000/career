@@ -6,8 +6,8 @@
   "scripts": {
     "format": "prettier --watch src/**/* --write",
     "lint": "eslint src/**/* --fix",
-    "build": "node --watch-path=src build.js",
-    "start": "node --watch-path=dist dist/server.cjs",
+    "build": "node build.js",
+    "start": "node dist/server.cjs",
     "dev": "npx npm-run-all --parallel -l build start"
   },
   "author": "Mohamed Tharwat",
