@@ -10,9 +10,30 @@ const context = createContext(contextData);
 
 export function ContextProvider({ children }) {
   const [userData, setUserData] = useState(contextData);
+
+  const [showSignup, setShowSignup] = useState(false);
+  const [showLogin, setShowLogin] = useState(false);
+
+  const toggleShowLogin = () => setShowLogin(!showLogin);
+  const toggleShowSignup = () => setShowSignup(!showSignup);
+
   const userContext = useMemo(
-    () => ({ userData, setUserData }),
-    [userData, setUserData],
+    () => ({
+      userData,
+      setUserData,
+      showSignup,
+      toggleShowSignup,
+      showLogin,
+      toggleShowLogin,
+    }),
+    [
+      userData,
+      setUserData,
+      showSignup,
+      toggleShowSignup,
+      showLogin,
+      toggleShowLogin,
+    ],
   );
 
   useEffect(() => {
