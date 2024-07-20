@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDom from 'react-dom/server';
 import express from 'express';
 import path from 'path';
-import { log } from 'hlputils';
 import cookieParser from 'cookie-parser';
 import Html from './Html';
 import App from './App';
@@ -27,5 +26,5 @@ app.get('*', (req, res) => {
 });
 
 app.listen(3000, () => {
-  log('Server is running on http://localhost:3000');
+  console.log('Server is running on http://localhost:3000');
 });
