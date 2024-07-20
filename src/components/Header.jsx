@@ -13,16 +13,11 @@ import OffcanvasLogin from './offcanvas/Login';
 import OffcanvasSignup from './offcanvas/Signup';
 
 function Header() {
-  const { userData } = useContext(context);
+  const { userData, showSignup, toggleShowSignup, showLogin, toggleShowLogin } =
+    useContext(context);
   const [isNavOpen, setIsNavOpen] = useState(false);
-  const [showLogin, setShowLogin] = useState(false);
-  const [showSignup, setShowSignup] = useState(false);
 
   const toggleNavbar = () => setIsNavOpen(!isNavOpen);
-
-  const toggleShowLogin = () => setShowLogin(!showLogin);
-
-  const toggleShowSignup = () => setShowSignup(!showSignup);
 
   const handleLogout = () => {
     fetch('/api/logout', {
