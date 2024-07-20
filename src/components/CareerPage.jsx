@@ -19,7 +19,7 @@ import OffcanvasJobApply from './offcanvas/JobApply';
 import context from './Context';
 
 function CareerPage() {
-  const { userData } = useContext(context);
+  const { userData, showLogin, toggleShowLogin } = useContext(context);
 
   const [jobs, setJobs] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
@@ -38,7 +38,8 @@ function CareerPage() {
       setSelectedJob(id);
       toggleOffcanvas();
     } else {
-      setAlertVisible(true);
+      toggleShowLogin();
+      // setAlertVisible(true);
     }
   };
 
