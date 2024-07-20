@@ -13,7 +13,7 @@ import {
 import context from '../Context';
 
 function OffcanvasLogin({ show, handleClose, placement }) {
-  const { setUserData } = useContext(context);
+  const { userData, setUserData } = useContext(context);
   const [loginData, setLoginData] = useState({
     email: '',
     password: '',
@@ -54,7 +54,7 @@ function OffcanvasLogin({ show, handleClose, placement }) {
 
   return (
     <Offcanvas
-      isOpen={show}
+      isOpen={show || userData.loginFirstToApply}
       toggle={handleClose}
       direction={placement}
     >
